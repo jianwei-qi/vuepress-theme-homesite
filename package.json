@@ -1,43 +1,37 @@
 {
-  "name": "@vuepress/theme-default",
-  "version": "1.2.0",
-  "description": "Default theme for VuePress",
+  "name": "vuepress-theme-homesite",
+  "version": "1.0.0",
+  "description": "A vuepress theme to build your home site",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vuepress.git",
-    "directory": "packages/@vuepress/theme-default"
+    "url": "git+https://gitee.com/jerryqi/vuepress-theme-homesite"
   },
   "keywords": [
-    "documentation",
-    "vue",
     "vuepress",
-    "generator"
+    "theme"
   ],
-  "author": "Evan You",
+  "author": "jerryqi",
   "maintainers": [
     {
       "name": "ULIVZ",
-      "email": "chl814@foxmail.com"
+      "email": "630751892@qq.com"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vuejs/vuepress/issues"
-  },
-  "homepage": "https://github.com/vuejs/vuepress/packages/@vuepress/theme-default#readme",
+  "license": "Apache-2.0",
+  "homepage": "https://gitee.com/jerryqi/vuepress-theme-homesite#readme",
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.2.0",
     "@vuepress/plugin-nprogress": "^1.2.0",
     "@vuepress/plugin-search": "^1.2.0",
-    "docsearch.js": "^2.5.2",
+    "docsearch.js": "^2.6.3",
     "lodash": "^4.17.15",
-    "stylus": "^0.54.5",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vuepress-plugin-container": "^2.0.2",
-    "vuepress-plugin-smooth-scroll": "^0.0.3"
+    "vuepress-plugin-container": "^2.1.0",
+    "vuepress-plugin-smooth-scroll": "0.0.7"
   }
 }
