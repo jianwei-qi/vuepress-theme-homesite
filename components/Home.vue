@@ -44,6 +44,7 @@
       class="footer"
       v-if="data.footer"
     >
+      <a href="http://www.beian.gov.cn" target="_blank" v-if="data.beian">{{ data.beian }} |</a>
       {{ data.footer }}
     </div>
   </main>
